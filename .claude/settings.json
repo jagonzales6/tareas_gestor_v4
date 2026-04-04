@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d//**)",
+      "Bash(\"d:\\\\JOEL PROYECTO:*)",
+      "Bash(node -e \"const db = require\\(''./src/database''\\); console.log\\(typeof db.deleteUsuario, typeof db.changeEmailUsuario\\)\")",
+      "Bash(node -e \":*)",
+      "Bash(grep -n \"v-if=\"\"tab === ''presupuesto''\\\\|v-if=\"\"tab === ''gastos''\" \"d:\\\\JOEL PROYECTO NIHR UNIFRANZ\\\\VS_CODE\\\\sistema_nihr\\\\tareas_gestor_v3\\\\frontend\\\\index.html\")",
+      "Bash(head -30 grep -n \"TODO\\\\|PENDIENTE\\\\|FIXME\\\\|HACK\" 'd:/JOEL PROYECTO NIHR UNIFRANZ/VS_CODE/sistema_nihr/tareas_gestor_v3/frontend/js/app.js' -i)",
+      "Bash(grep -rn \"TODO\\\\|PENDIENTE\\\\|FIXME\\\\|WIP\\\\|pendiente\" 'd:/JOEL PROYECTO NIHR UNIFRANZ/VS_CODE/sistema_nihr/tareas_gestor_v3/' --include=*.md -i)",
+      "Bash(grep -n \"tab === ''reportes''\" \"d:/JOEL PROYECTO NIHR UNIFRANZ/VS_CODE/sistema_nihr/tareas_gestor_v3/frontend/index.html\")",
+      "Bash(\"d:/JOEL PROYECTO NIHR UNIFRANZ/VS_CODE/sistema_nihr/tareas_gestor_v3/frontend/css/style.css\")"
+    ]
+  }
+}

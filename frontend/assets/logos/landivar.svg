@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="640" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f5f78"/>
+      <stop offset="1" stop-color="#7bd1d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="240" rx="36" fill="#F7FBFD"/>
+  <rect x="18" y="18" width="604" height="204" rx="28" fill="url(#g)" opacity="0.08"/>
+  <circle cx="110" cy="120" r="56" fill="url(#g)"/>
+  <path d="M84 119.5h52" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 93.5v52" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <text x="190" y="108" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#143042">Landívar</text>
+  <text x="190" y="148" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#5E7383">Guatemala</text>
+</svg>

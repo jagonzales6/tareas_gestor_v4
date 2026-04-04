@@ -1,0 +1,97 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                 GESTOR DE TAREAS - MVP LOCAL v4                  ║
+║                                                                  ║
+║                   ✅ LISTO PARA USAR                            ║
+╚══════════════════════════════════════════════════════════════════╝
+
+
+🚀 COMIENZA EN 3 PASOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PASO 1: Instala Node.js
+───────────────────────
+Descarga: https://nodejs.org/
+Después verifica en terminal:
+  $ node --version
+  $ npm --version
+
+
+PASO 2: Inicia el servidor
+──────────────────────────
+Windows: Doble-click en → iniciar.bat
+Mac/Linux: → chmod +x iniciar.sh && ./iniciar.sh
+
+O manualmente:
+  $ cd backend
+  $ npm install        (Solo la primera vez)
+  $ npm start
+
+
+PASO 3: Abre en navegador
+─────────────────────────
+Cuando veas en terminal: "✓ Express server listening on port 3000"
+
+Abre un navegador:
+  file:///ruta/a/tareas_gestor_cloud/frontend/index.html
+
+
+🔑 LOGIN DE PRUEBA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Email: usuario@unifranz.edu
+Nombre: Usuario Test
+Rol: investigador   ← Interfaz básica
+     admin        ← Ver TODO (crear tareas, auditoría)
+
+
+📚 DOCUMENTACIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+README.md      → Guía completa (requisitos, endpoints, troubleshooting)
+SETUP.md       → Pasos técnicos
+ARCHIVOS.md    → Índice y descripción de cada archivo
+INICIO_RAPIDO.txt → Este archivo
+
+
+⚙️ CARACTERÍSTICAS LISTAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Backend Express.js (puerto 3000)
+✅ Frontend Vue.js 3 (interfaz responsiva)
+✅ API REST completa (15+ endpoints)
+✅ Autenticación por sesiones
+✅ Roles: admin, gerente, investigador, coordinador
+✅ Crear tareas y reuniones
+✅ Marcar tareas como completadas
+✅ Ver auditoría (admin only)
+✅ CORS configurado para desarrollo local
+
+
+🆘 PROBLEMAS COMUNES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ "npm: comando no encontrado"
+→ Instala Node.js: https://nodejs.org/
+
+❌ "Puerto 3000 en uso"
+→ Cambia en backend/.env: PORT=3001
+
+❌ "El frontend no se conecta"
+→ Verifica que backend esté corriendo (http://localhost:3000)
+→ Abre F12 en navegador para ver errores
+
+
+📞 SOPORTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Lee README.md (sección Troubleshooting)
+2. Abre console del navegador: F12
+3. Revisa logs de backend en terminal
+4. Comprueba variables en backend/.env
+
+
+═══════════════════════════════════════════════════════════════════
+
+¡Listo! Comienza en PASO 1 arriba.
+
+Para más detalles: ver README.md

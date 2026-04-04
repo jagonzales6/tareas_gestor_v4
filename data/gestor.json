@@ -1,0 +1,2402 @@
+{
+  "usuarios": [
+    {
+      "email": "admin@unifranz.edu",
+      "nombre": "Admin System",
+      "rol": "admin",
+      "activo": true,
+      "departamento": "Sistema",
+      "proyecto": null,
+      "supervisora": null,
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "equipo": null,
+      "esDirectiva": true
+    },
+    {
+      "email": "lucia.alvarado@unifranz.edu.bo",
+      "nombre": "Lucia Elena Arnez Alvarado",
+      "rol": "gerente",
+      "activo": true,
+      "departamento": "Dirección",
+      "proyecto": "Actividades Transversales",
+      "supervisora": null,
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "esEncargadoRecursos": false,
+      "equipos": [],
+      "esDirectiva": true,
+      "equipo": null,
+      "secciones": null
+    },
+    {
+      "email": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "nombre": "Ronald Fernando Tapia Pijuan",
+      "rol": "pi",
+      "activo": true,
+      "departamento": "Investigación",
+      "proyecto": null,
+      "supervisora": null,
+      "password_hash": "$2a$10$VgyXvp6ppgnaZULbH6KeAe5E9w8To2YtnZGnfYsZXpaUNQ1onW1U2",
+      "equipo": null,
+      "equipos": [],
+      "esEncargadoRecursos": false,
+      "esDirectiva": true,
+      "secciones": [
+        "tareas",
+        "registrar-tarea",
+        "reuniones",
+        "registrar-reunion"
+      ]
+    },
+    {
+      "email": "proyectoinvest.david.burgoa@unifranz.edu.bo",
+      "nombre": "David Burgoa Barrenechea",
+      "rol": "responsable_financiero",
+      "activo": true,
+      "departamento": "Finanzas",
+      "proyecto": "Actividades Transversales",
+      "supervisora": null,
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [
+        "Financiero",
+        "Administrativo"
+      ],
+      "esDirectiva": true,
+      "equipo": "Financiero",
+      "secciones": null,
+      "esEncargadoRecursos": false
+    },
+    {
+      "email": "estela.tango@unifranz.edu.bo",
+      "nombre": "Estela María del Carmen Tango Camargo",
+      "rol": "coordinadora",
+      "activo": true,
+      "departamento": "Coordinación",
+      "proyecto": "Trial 1: DIALOG+",
+      "supervisora": null,
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "esDirectiva": true,
+      "equipo": null,
+      "secciones": null,
+      "esEncargadoRecursos": false
+    },
+    {
+      "email": "proyectoinvest.dailyncarla.llanos@unifranz.edu.bo",
+      "nombre": "Dailyn Carla Llanos Agno",
+      "rol": "becaria",
+      "activo": true,
+      "departamento": "Investigación",
+      "proyecto": null,
+      "supervisora": null,
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [
+        "Comité de Ética"
+      ],
+      "esDirectiva": false,
+      "equipo": "Comité de Ética",
+      "secciones": [
+        "tareas",
+        "reuniones",
+        "registrar-tarea",
+        "registrar-reunion",
+        "presupuesto"
+      ],
+      "esEncargadoRecursos": false
+    },
+    {
+      "email": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "nombre": "Mauricio Alejandro Baspineiro Aguirre",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "Investigación",
+      "proyecto": "Trial 1: DIALOG+",
+      "supervisora": "estela.tango@unifranz.edu.bo",
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "esDirectiva": false
+    },
+    {
+      "email": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "nombre": "Luis Felipe Osinaga Robles",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "Investigación",
+      "proyecto": "Trial 1: DIALOG+",
+      "supervisora": "estela.tango@unifranz.edu.bo",
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "esDirectiva": false
+    },
+    {
+      "email": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "nombre": "Janeth Esther Calatayud Padilla",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "Investigación",
+      "proyecto": "Trial 1: DIALOG+",
+      "supervisora": "estela.tango@unifranz.edu.bo",
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "esDirectiva": false
+    },
+    {
+      "email": "proyectoinvest.jorgeignacio.antelo@unifranz.edu.bo",
+      "nombre": "Jorge Ignacio Antelo Gutiérrez",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "Investigación",
+      "proyecto": "Trial 1: DIALOG+",
+      "supervisora": "estela.tango@unifranz.edu.bo",
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "esDirectiva": false,
+      "equipo": null,
+      "secciones": [
+        "recursos"
+      ],
+      "esEncargadoRecursos": true
+    },
+    {
+      "email": "proyectoinvest.noeliaaida.castro@unifranz.edu.bo",
+      "nombre": "Noelia Aida Castro Guzmán",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "Investigación",
+      "proyecto": "Trial 2: Multifamiliar",
+      "supervisora": "estela.tango@unifranz.edu.bo",
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "esDirectiva": false,
+      "equipo": null,
+      "secciones": null,
+      "esEncargadoRecursos": false
+    },
+    {
+      "email": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "nombre": "Joel Angel Gonzales Flores",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "TI",
+      "proyecto": "Trial 1: DIALOG+",
+      "supervisora": null,
+      "password_hash": "$2a$10$sVvQQ3et67klBvJMBYEveu8OmukHMsQrB/5rDQ0J0NJ5hmX8ns5dq",
+      "equipos": [],
+      "esDirectiva": false,
+      "equipo": null,
+      "secciones": [
+        "tareas",
+        "reuniones",
+        "registrar-tarea",
+        "registrar-reunion"
+      ],
+      "esEncargadoRecursos": false
+    },
+    {
+      "email": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo",
+      "nombre": "Micaela Canqui",
+      "rol": "pasante",
+      "activo": true,
+      "departamento": "",
+      "proyecto": "Actividades Transversales",
+      "supervisora": null,
+      "password_hash": "$2a$10$MHiRoiOoP6Jr2ZGeThagre/DGLZMETAqIfq/ipgHpqQsXzv3lN24u",
+      "secciones": [
+        "tareas",
+        "reuniones",
+        "registrar-tarea",
+        "registrar-reunion"
+      ],
+      "esEncargadoRecursos": false,
+      "equipos": [
+        "Comunicación"
+      ],
+      "equipo": "Comunicación",
+      "esDirectiva": false
+    },
+    {
+      "email": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "nombre": "Hugh Kevin Mc Cormack Rojas",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "",
+      "proyecto": "Trial 2: Multifamiliar",
+      "supervisora": null,
+      "password_hash": "$2a$10$jbR.JbZgz0s4khoBbOSWLe0ydf9fanMksE7F6dE.4DnyRpOxVWEVS",
+      "secciones": [
+        "tareas",
+        "reuniones",
+        "scrum",
+        "registrar-tarea",
+        "registrar-reunion",
+        "finanzas",
+        "presupuesto",
+        "reportes",
+        "recursos"
+      ],
+      "esEncargadoRecursos": true,
+      "equipos": [
+        "Financiero"
+      ],
+      "equipo": "Financiero",
+      "esDirectiva": false
+    },
+    {
+      "email": "proyectoinvest.marialaura.palmerola@unifranz.edu.bo",
+      "nombre": "María Laura Palmerola Salinas",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "",
+      "proyecto": "Trial 2: Multifamiliar",
+      "supervisora": null,
+      "password_hash": "$2a$10$TUQbiD20wxj8z2L1At7ime0Fv9qUipNE5knjKwe5Sncm3elS2/D8q",
+      "secciones": null,
+      "esEncargadoRecursos": false,
+      "equipos": [],
+      "equipo": null,
+      "esDirectiva": false
+    },
+    {
+      "email": "maite.sandoval@unifranz.edu.bo",
+      "nombre": "Maite Sandoval H.Gutierrez",
+      "rol": "coordinadora",
+      "activo": true,
+      "departamento": "",
+      "proyecto": "Actividades Transversales",
+      "supervisora": null,
+      "password_hash": "$2a$10$81ZaCfP0IJImsfAQiOO4oeBTXseS3/G17gxXoX68HHkWGe/6vKANu",
+      "secciones": null,
+      "esEncargadoRecursos": false,
+      "equipos": [
+        "Comunicación"
+      ],
+      "equipo": "Comunicación",
+      "esDirectiva": false
+    },
+    {
+      "email": "proyectoinvest.mariaceleste.limon.mo@unifranz.edu.bo",
+      "nombre": "Maria Celeste Limon Moron",
+      "rol": "asistente",
+      "activo": true,
+      "departamento": "",
+      "proyecto": null,
+      "supervisora": null,
+      "password_hash": "$2a$10$wIDvy.gXMVGEYB0BE1AjdeLNHRsjjVS5ARgwk3F.WynFWWKrhONSq",
+      "secciones": null,
+      "esEncargadoRecursos": false,
+      "equipos": [
+        "Comunicación"
+      ],
+      "equipo": "Comunicación",
+      "esDirectiva": false
+    }
+  ],
+  "tareas": [
+    {
+      "id": "1",
+      "proyecto": "NIHR",
+      "descripcion": "Revisar documentación del proyecto",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-04-15",
+      "responsables": [
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo"
+      ],
+      "notas": "Incluir feedback técnico",
+      "creadoPor": "admin@unifranz.edu",
+      "fechaCreacion": "2026-03-30T11:01:41.497Z",
+      "ultimaActualizacion": "2026-04-01T02:48:18.121Z",
+      "evidencia": {
+        "nombre": "Tarjeta Cumple Happy Birthday Moderna Floral Rosada.png",
+        "archivo": "1775011698094-n4zwef4xfhq.png",
+        "url": "/uploads/evidencias/1775011698094-n4zwef4xfhq.png",
+        "subidoPor": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+        "subidoPorNombre": "Joel Ángel Gonzales Flores",
+        "fecha": "2026-04-01T02:48:18.121Z"
+      }
+    },
+    {
+      "id": "1774868738183",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "Confirmar  aceptación DM 12",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-03-30",
+      "responsables": [
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo"
+      ],
+      "notas": "",
+      "creadoPor": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "fechaCreacion": "2026-03-30T11:05:38.183Z",
+      "ultimaActualizacion": "2026-04-01T02:48:28.151Z",
+      "evidencia": {
+        "nombre": "gestion_project_fina_1.pdf",
+        "archivo": "1775011708149-xhkt8h9s3s.pdf",
+        "url": "/uploads/evidencias/1775011708149-xhkt8h9s3s.pdf",
+        "subidoPor": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+        "subidoPorNombre": "Joel Ángel Gonzales Flores",
+        "fecha": "2026-04-01T02:48:28.151Z"
+      }
+    },
+    {
+      "id": "1774990724211",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "contactar bajio",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-04-04",
+      "responsables": [
+        "proyectoinvest.dailyncarla.llanos@unifranz.edu.bo",
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo"
+      ],
+      "notas": "casasda",
+      "creadoPor": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "fechaCreacion": "2026-03-31T20:58:44.211Z",
+      "ultimaActualizacion": "2026-03-31T21:04:07.236Z"
+    },
+    {
+      "id": "1774993790701",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "sadsd",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-03-31",
+      "responsables": [
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo"
+      ],
+      "notas": "dasdas",
+      "creadoPor": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "fechaCreacion": "2026-03-31T21:49:50.701Z",
+      "evidencia": {
+        "nombre": "1. Sarampion Rubeola.pdf",
+        "archivo": "1774993827408-w4hpac6eax.pdf",
+        "url": "/uploads/evidencias/1774993827408-w4hpac6eax.pdf",
+        "subidoPor": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+        "subidoPorNombre": "Luis Felipe Osinaga Robles",
+        "fecha": "2026-03-31T21:50:27.412Z"
+      },
+      "ultimaActualizacion": "2026-03-31T21:50:28.410Z"
+    },
+    {
+      "id": "1774996044081",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "Viajar",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-03-31",
+      "responsables": [
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+        "lucia.alvarado@unifranz.edu.bo",
+        "proyectoinvest.ronald.tapia@unifranz.edu.bo"
+      ],
+      "notas": "casdas",
+      "creadoPor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "fechaCreacion": "2026-03-31T22:27:24.081Z",
+      "evidencia": {
+        "nombre": "CITE VRAN 356 2026.pdf",
+        "archivo": "1774996044092-ag441or15gh.pdf",
+        "url": "/uploads/evidencias/1774996044092-ag441or15gh.pdf",
+        "subidoPor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+        "subidoPorNombre": "Mauricio Alejandro Baspineiro Aguirre",
+        "fecha": "2026-03-31T22:27:24.095Z"
+      },
+      "ultimaActualizacion": "2026-03-31T22:27:37.971Z"
+    },
+    {
+      "id": "1774997944613",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "sasda",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-03-17",
+      "responsables": [
+        "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+        "admin@unifranz.edu",
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+        "proyectoinvest.joelangel.gonzales@unifranz.edu.bo"
+      ],
+      "notas": "dasdas",
+      "creadoPor": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "fechaCreacion": "2026-03-31T22:59:04.613Z",
+      "evidencia": {
+        "nombre": "Tarjeta Cumple Happy Birthday Moderna Floral Rosada.png",
+        "archivo": "1774997944622-x7souqn8rwl.png",
+        "url": "/uploads/evidencias/1774997944622-x7souqn8rwl.png",
+        "subidoPor": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+        "subidoPorNombre": "Janeth Esther Calatayud Padilla",
+        "fecha": "2026-03-31T22:59:04.628Z"
+      },
+      "ultimaActualizacion": "2026-04-01T02:48:06.693Z"
+    },
+    {
+      "id": "1775043640008",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "entrega carta",
+      "estado": "Pendiente",
+      "fechaVencimiento": "2026-04-01",
+      "responsables": [
+        "scze.micaelaandrea.canqui.mi@unifranz.edu.bo",
+        "proyectoinvest.janethesther.calatayud@unifranz.edu.bo"
+      ],
+      "notas": "sadas",
+      "origenScrum": false,
+      "reunionOrigenId": null,
+      "creadoPor": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo",
+      "fechaCreacion": "2026-04-01T11:40:40.008Z"
+    },
+    {
+      "id": "1775059603497",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "casdas",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-04-01",
+      "responsables": [
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+        "proyectoinvest.ronald.tapia@unifranz.edu.bo"
+      ],
+      "notas": "dasdas",
+      "origenScrum": false,
+      "reunionOrigenId": null,
+      "creadoPor": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "fechaCreacion": "2026-04-01T16:06:43.497Z",
+      "ultimaActualizacion": "2026-04-01T16:15:11.927Z"
+    },
+    {
+      "id": "1775060197579",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "dasd",
+      "estado": "Completada",
+      "fechaVencimiento": "2026-04-01",
+      "responsables": [
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+        "proyectoinvest.ronald.tapia@unifranz.edu.bo"
+      ],
+      "notas": "dasd",
+      "origenScrum": false,
+      "reunionOrigenId": null,
+      "creadoPor": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "fechaCreacion": "2026-04-01T16:16:37.579Z",
+      "ultimaActualizacion": "2026-04-01T16:17:04.241Z"
+    },
+    {
+      "id": "1775060278651",
+      "proyecto": "Trial 2: Multifamiliar",
+      "descripcion": "Comer silpancho",
+      "estado": "Pendiente",
+      "fechaVencimiento": "2026-04-01",
+      "responsables": [
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+        "proyectoinvest.ronald.tapia@unifranz.edu.bo"
+      ],
+      "notas": "Ir all bajio",
+      "origenScrum": false,
+      "reunionOrigenId": null,
+      "creadoPor": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "fechaCreacion": "2026-04-01T16:17:58.651Z"
+    }
+  ],
+  "reuniones": [
+    {
+      "id": "1",
+      "proyecto": "NIHR",
+      "descripcion": "Kick-off Meeting del Proyecto",
+      "fecha": "2026-04-01",
+      "horaInicio": "10:00",
+      "horaFin": "11:00",
+      "asistentes": [
+        "estela.tango@unifranz.edu.bo",
+        "proyectoinvest.ronald.tapia@unifranz.edu.bo"
+      ],
+      "creadoPor": "admin@unifranz.edu",
+      "fechaCreacion": "2026-03-30T11:01:41.497Z"
+    },
+    {
+      "id": "1775008097205",
+      "tipo": "personal",
+      "modalidad": "scrum",
+      "tipoReunion": "especial",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "sads",
+      "fecha": "2026-03-31",
+      "horaInicio": "21:48",
+      "horaFin": "",
+      "asistentes": [
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo"
+      ],
+      "asistencias": {
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo": true
+      },
+      "notas": [],
+      "acta": "",
+      "calendarEventIds": {},
+      "creadoPor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "fechaCreacion": "2026-04-01T01:48:17.205Z"
+    },
+    {
+      "id": "1775008816139",
+      "tipo": "personal",
+      "modalidad": "scrum",
+      "tipoReunion": "especial",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "dfd",
+      "fecha": "2026-03-31",
+      "horaInicio": "22:00",
+      "horaFin": "",
+      "asistentes": [
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo"
+      ],
+      "asistencias": {
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo": true
+      },
+      "notas": [
+        {
+          "id": "1775008866754",
+          "texto": "cadsadassada",
+          "tipo": "nota",
+          "autor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+          "autorNombre": "Mauricio Alejandro Baspineiro Aguirre",
+          "fecha": "2026-04-01T02:01:06.754Z"
+        },
+        {
+          "id": "1775008869596",
+          "texto": "dasdas",
+          "tipo": "nota",
+          "autor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+          "autorNombre": "Mauricio Alejandro Baspineiro Aguirre",
+          "fecha": "2026-04-01T02:01:09.596Z"
+        },
+        {
+          "id": "1775008893249",
+          "texto": "dasdasdasdas",
+          "tipo": "nota",
+          "autor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+          "autorNombre": "Mauricio Alejandro Baspineiro Aguirre",
+          "fecha": "2026-04-01T02:01:33.249Z"
+        },
+        {
+          "id": "1775008899299",
+          "texto": "dasdas",
+          "tipo": "tarea",
+          "autor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+          "autorNombre": "Mauricio Alejandro Baspineiro Aguirre",
+          "fecha": "2026-04-01T02:01:39.299Z"
+        },
+        {
+          "id": "1775008904673",
+          "texto": "dasdasd",
+          "tipo": "decision",
+          "autor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+          "autorNombre": "Mauricio Alejandro Baspineiro Aguirre",
+          "fecha": "2026-04-01T02:01:44.673Z"
+        }
+      ],
+      "acta": "",
+      "calendarEventIds": {},
+      "creadoPor": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "fechaCreacion": "2026-04-01T02:00:16.139Z"
+    },
+    {
+      "id": "1775061598066",
+      "tipo": "personal",
+      "modalidad": "scrum",
+      "tipoReunion": "especial",
+      "proyecto": "Trial 1: DIALOG+",
+      "descripcion": "fsdf",
+      "fecha": "2026-04-01",
+      "horaInicio": "",
+      "horaFin": "",
+      "asistentes": [
+        "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo"
+      ],
+      "asistencias": {},
+      "notas": [
+        {
+          "id": "1775061634266",
+          "texto": "dsada",
+          "tipo": "nota",
+          "autor": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+          "autorNombre": "Hugh Kevin Mc Cormack Rojas",
+          "fecha": "2026-04-01T16:40:34.266Z"
+        },
+        {
+          "id": "1775061643355",
+          "texto": "dsadas",
+          "tipo": "tarea",
+          "autor": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+          "autorNombre": "Hugh Kevin Mc Cormack Rojas",
+          "fecha": "2026-04-01T16:40:43.355Z"
+        },
+        {
+          "id": "1775061663212",
+          "texto": "dasda",
+          "tipo": "decision",
+          "autor": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+          "autorNombre": "Hugh Kevin Mc Cormack Rojas",
+          "fecha": "2026-04-01T16:41:03.212Z"
+        }
+      ],
+      "acta": "",
+      "calendarEventIds": {},
+      "creadoPor": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "fechaCreacion": "2026-04-01T16:39:58.066Z"
+    }
+  ],
+  "auditoria": [
+    {
+      "id": "1774868584992",
+      "timestamp": "2026-03-30T11:03:04.992Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774868738183",
+      "timestamp": "2026-03-30T11:05:38.183Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"Confirmar  aceptación DM 12\" → proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo, proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo"
+    },
+    {
+      "id": "1774868852165",
+      "timestamp": "2026-03-30T11:07:32.165Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774869333628",
+      "timestamp": "2026-03-30T11:15:33.628Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774869451210",
+      "timestamp": "2026-03-30T11:17:31.210Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774869491792",
+      "timestamp": "2026-03-30T11:18:11.792Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774869525771",
+      "timestamp": "2026-03-30T11:18:45.771Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774869594716",
+      "timestamp": "2026-03-30T11:19:54.716Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774870431315",
+      "timestamp": "2026-03-30T11:33:51.315Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774870454987",
+      "timestamp": "2026-03-30T11:34:14.987Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Proyecto",
+      "detalles": "Miembros actualizados en \"Trial 1: DIALOG+\": 8 miembros"
+    },
+    {
+      "id": "1774870467057",
+      "timestamp": "2026-03-30T11:34:27.057Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774870478545",
+      "timestamp": "2026-03-30T11:34:38.545Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774870514192",
+      "timestamp": "2026-03-30T11:35:14.192Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774877056279",
+      "timestamp": "2026-03-30T13:24:16.343Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774877063984",
+      "timestamp": "2026-03-30T13:24:23.984Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774877095894",
+      "timestamp": "2026-03-30T13:24:55.894Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774877617907",
+      "timestamp": "2026-03-30T13:33:37.907Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774989651161",
+      "timestamp": "2026-03-31T20:40:51.163Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774989712398",
+      "timestamp": "2026-03-31T20:41:52.398Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Anuncio",
+      "detalles": "\"Visito Bajio del Oriente\""
+    },
+    {
+      "id": "1774989729629",
+      "timestamp": "2026-03-31T20:42:09.629Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774989815991",
+      "timestamp": "2026-03-31T20:43:35.991Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774989827591",
+      "timestamp": "2026-03-31T20:43:47.591Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"Revisar documentación del proyecto\" → Completada"
+    },
+    {
+      "id": "1774989843152",
+      "timestamp": "2026-03-31T20:44:03.152Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774990668137",
+      "timestamp": "2026-03-31T20:57:48.137Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774990724211",
+      "timestamp": "2026-03-31T20:58:44.211Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"contactar bajio\" → becaria1@unifranz.edu, proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo"
+    },
+    {
+      "id": "1774990927095",
+      "timestamp": "2026-03-31T21:02:07.095Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774990936177",
+      "timestamp": "2026-03-31T21:02:16.177Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774990941143",
+      "timestamp": "2026-03-31T21:02:21.143Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Eliminar Anuncio",
+      "detalles": "id: 1774989712397"
+    },
+    {
+      "id": "1774990979841",
+      "timestamp": "2026-03-31T21:02:59.841Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774991003322",
+      "timestamp": "2026-03-31T21:03:23.322Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774991047236",
+      "timestamp": "2026-03-31T21:04:07.236Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"contactar bajio\" → Completada"
+    },
+    {
+      "id": "1774991065058",
+      "timestamp": "2026-03-31T21:04:25.058Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"Confirmar  aceptación DM 12\" → Completada"
+    },
+    {
+      "id": "1774993758369",
+      "timestamp": "2026-03-31T21:49:18.371Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774993790702",
+      "timestamp": "2026-03-31T21:49:50.702Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"sadsd\" → proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo"
+    },
+    {
+      "id": "1774993827413",
+      "timestamp": "2026-03-31T21:50:27.413Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Subir Evidencia",
+      "detalles": "Tarea \"sadsd\" → 1. Sarampion Rubeola.pdf"
+    },
+    {
+      "id": "1774993828410",
+      "timestamp": "2026-03-31T21:50:28.410Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"sadsd\" → Completada"
+    },
+    {
+      "id": "1774995723845",
+      "timestamp": "2026-03-31T22:22:03.846Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774995739369",
+      "timestamp": "2026-03-31T22:22:19.369Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774996010389",
+      "timestamp": "2026-03-31T22:26:50.389Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774996044082",
+      "timestamp": "2026-03-31T22:27:24.082Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"Viajar\" → proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo, gerente@unifranz.edu, pi@unifranz.edu"
+    },
+    {
+      "id": "1774996044095",
+      "timestamp": "2026-03-31T22:27:24.095Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Subir Evidencia",
+      "detalles": "Tarea \"Viajar\" → CITE VRAN 356 2026.pdf"
+    },
+    {
+      "id": "1774996057971",
+      "timestamp": "2026-03-31T22:27:37.971Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"Viajar\" → Completada"
+    },
+    {
+      "id": "1774997103207",
+      "timestamp": "2026-03-31T22:45:03.208Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774997129261",
+      "timestamp": "2026-03-31T22:45:29.261Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1774997837116",
+      "timestamp": "2026-03-31T22:57:17.116Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Anuncio",
+      "detalles": "\"CUMPLEAÑEROS DEL MES\""
+    },
+    {
+      "id": "1774997843318",
+      "timestamp": "2026-03-31T22:57:23.318Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1774997875596",
+      "timestamp": "2026-03-31T22:57:55.597Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1774997944613",
+      "timestamp": "2026-03-31T22:59:04.613Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"sasda\" → proyectoinvest.janethesther.calatayud@unifranz.edu.bo, admin@unifranz.edu, proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo, proyectoinvest.joelangel.gonzales@unifranz.edu.bo"
+    },
+    {
+      "id": "1774997944628",
+      "timestamp": "2026-03-31T22:59:04.628Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Subir Evidencia",
+      "detalles": "Tarea \"sasda\" → Tarjeta Cumple Happy Birthday Moderna Floral Rosada.png"
+    },
+    {
+      "id": "1775003835653",
+      "timestamp": "2026-04-01T00:37:15.654Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775006809341",
+      "timestamp": "2026-04-01T01:26:49.343Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775008036115",
+      "timestamp": "2026-04-01T01:47:16.117Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775008097206",
+      "timestamp": "2026-04-01T01:48:17.206Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Registrar Reunión Personal",
+      "detalles": "\"sads\""
+    },
+    {
+      "id": "1775008260974",
+      "timestamp": "2026-04-01T01:51:00.974Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Marcar Asistencia",
+      "detalles": "Reunión \"sads\": Asistió"
+    },
+    {
+      "id": "1775008816140",
+      "timestamp": "2026-04-01T02:00:16.140Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Registrar Reunión Personal",
+      "detalles": "\"dfd\""
+    },
+    {
+      "id": "1775008935274",
+      "timestamp": "2026-04-01T02:02:15.274Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Marcar Asistencia",
+      "detalles": "Reunión \"dfd\": Asistió"
+    },
+    {
+      "id": "1775011551003",
+      "timestamp": "2026-04-01T02:45:51.041Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775011577364",
+      "timestamp": "2026-04-01T02:46:17.364Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Equipo",
+      "detalles": "pi@unifranz.edu → comunicacion"
+    },
+    {
+      "id": "1775011578547",
+      "timestamp": "2026-04-01T02:46:18.547Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Equipo",
+      "detalles": "pi@unifranz.edu → sin equipo"
+    },
+    {
+      "id": "1775011686693",
+      "timestamp": "2026-04-01T02:48:06.693Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"sasda\" → Completada"
+    },
+    {
+      "id": "1775011698122",
+      "timestamp": "2026-04-01T02:48:18.122Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Subir Evidencia",
+      "detalles": "Tarea \"Revisar documentación del proyecto\" → Tarjeta Cumple Happy Birthday Moderna Floral Rosada.png"
+    },
+    {
+      "id": "1775011708152",
+      "timestamp": "2026-04-01T02:48:28.152Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Subir Evidencia",
+      "detalles": "Tarea \"Confirmar  aceptación DM 12\" → gestion_project_fina_1.pdf"
+    },
+    {
+      "id": "1775011715697",
+      "timestamp": "2026-04-01T02:48:35.697Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775011848871",
+      "timestamp": "2026-04-01T02:50:48.871Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775011853516",
+      "timestamp": "2026-04-01T02:50:53.516Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Eliminar Anuncio",
+      "detalles": "id: 1774997837115"
+    },
+    {
+      "id": "1775011888638",
+      "timestamp": "2026-04-01T02:51:28.638Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Anuncio",
+      "detalles": "\"CUMPLEAÑOS\""
+    },
+    {
+      "id": "1775011888672",
+      "timestamp": "2026-04-01T02:51:28.672Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Imagen Anuncio",
+      "detalles": "Anuncio 1775011888637"
+    },
+    {
+      "id": "1775011895626",
+      "timestamp": "2026-04-01T02:51:35.626Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775011913296",
+      "timestamp": "2026-04-01T02:51:53.296Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775037868743",
+      "timestamp": "2026-04-01T10:04:28.743Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775039528188",
+      "timestamp": "2026-04-01T10:32:08.190Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775039550638",
+      "timestamp": "2026-04-01T10:32:30.638Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775039572024",
+      "timestamp": "2026-04-01T10:32:52.024Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775039885548",
+      "timestamp": "2026-04-01T10:38:05.548Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775039908632",
+      "timestamp": "2026-04-01T10:38:28.632Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775039953309",
+      "timestamp": "2026-04-01T10:39:13.309Z",
+      "usuario": "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775039990299",
+      "timestamp": "2026-04-01T10:39:50.299Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775040064623",
+      "timestamp": "2026-04-01T10:41:04.623Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Encargado",
+      "detalles": "gerente@unifranz.edu encargado=true"
+    },
+    {
+      "id": "1775040068831",
+      "timestamp": "2026-04-01T10:41:08.831Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Encargado",
+      "detalles": "gerente@unifranz.edu encargado=false"
+    },
+    {
+      "id": "1775041409999",
+      "timestamp": "2026-04-01T11:03:29.999Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775041429559",
+      "timestamp": "2026-04-01T11:03:49.559Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "admin@unifranz.edu: rol=admin, equipos=, equipo=null, departamento=Sistema"
+    },
+    {
+      "id": "1775041898003",
+      "timestamp": "2026-04-01T11:11:38.003Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Encargado",
+      "detalles": "pi@unifranz.edu encargado=true"
+    },
+    {
+      "id": "1775041904120",
+      "timestamp": "2026-04-01T11:11:44.120Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Encargado",
+      "detalles": "pi@unifranz.edu encargado=false"
+    },
+    {
+      "id": "1775041905160",
+      "timestamp": "2026-04-01T11:11:45.160Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Equipos",
+      "detalles": "pi@unifranz.edu → [comunicacion]"
+    },
+    {
+      "id": "1775041907005",
+      "timestamp": "2026-04-01T11:11:47.005Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Equipos",
+      "detalles": "pi@unifranz.edu → [ninguno]"
+    },
+    {
+      "id": "1775042606965",
+      "timestamp": "2026-04-01T11:23:26.965Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "admin@unifranz.edu: rol=admin, equipos=, equipo=null, departamento=Sistema"
+    },
+    {
+      "id": "1775042606969",
+      "timestamp": "2026-04-01T11:23:26.969Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "admin@unifranz.edu → [ninguno]"
+    },
+    {
+      "id": "1775043269457",
+      "timestamp": "2026-04-01T11:34:29.457Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775043380759",
+      "timestamp": "2026-04-01T11:36:20.759Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775043491035",
+      "timestamp": "2026-04-01T11:38:11.035Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Usuario",
+      "detalles": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo (pasante)"
+    },
+    {
+      "id": "1775043503221",
+      "timestamp": "2026-04-01T11:38:23.221Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo: rol=pasante, equipos=Comunicación, equipo=Comunicación, departamento="
+    },
+    {
+      "id": "1775043503230",
+      "timestamp": "2026-04-01T11:38:23.230Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo → [Actividades Transversales]"
+    },
+    {
+      "id": "1775043510586",
+      "timestamp": "2026-04-01T11:38:30.586Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775043519553",
+      "timestamp": "2026-04-01T11:38:39.553Z",
+      "usuario": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como pasante"
+    },
+    {
+      "id": "1775043640009",
+      "timestamp": "2026-04-01T11:40:40.009Z",
+      "usuario": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"entrega carta\" → scze.micaelaandrea.canqui.mi@unifranz.edu.bo, proyectoinvest.janethesther.calatayud@unifranz.edu.bo"
+    },
+    {
+      "id": "1775043646191",
+      "timestamp": "2026-04-01T11:40:46.191Z",
+      "usuario": "scze.micaelaandrea.canqui.mi@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775055518306",
+      "timestamp": "2026-04-01T14:58:38.308Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775055966769",
+      "timestamp": "2026-04-01T15:06:06.769Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775055981113",
+      "timestamp": "2026-04-01T15:06:21.113Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775056469063",
+      "timestamp": "2026-04-01T15:14:29.063Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "admin@unifranz.edu: rol=admin, equipos=, equipo=null, esDirectiva=true"
+    },
+    {
+      "id": "1775056469068",
+      "timestamp": "2026-04-01T15:14:29.068Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "admin@unifranz.edu → [ninguno]"
+    },
+    {
+      "id": "1775056530090",
+      "timestamp": "2026-04-01T15:15:30.102Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "gerente@unifranz.edu: rol=gerente, equipos=, equipo=null, esDirectiva=true"
+    },
+    {
+      "id": "1775056530106",
+      "timestamp": "2026-04-01T15:15:30.106Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "gerente@unifranz.edu → [Actividades Transversales]"
+    },
+    {
+      "id": "1775056550349",
+      "timestamp": "2026-04-01T15:15:50.349Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "gerente@unifranz.edu: rol=gerente, equipos=, equipo=null, esDirectiva=true"
+    },
+    {
+      "id": "1775056550353",
+      "timestamp": "2026-04-01T15:15:50.353Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "gerente@unifranz.edu → [Actividades Transversales]"
+    },
+    {
+      "id": "1775056730464",
+      "timestamp": "2026-04-01T15:18:50.464Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "gerente@unifranz.edu: rol=gerente, equipos=, equipo=null, esDirectiva=true"
+    },
+    {
+      "id": "1775056790896",
+      "timestamp": "2026-04-01T15:19:50.896Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Usuario",
+      "detalles": "lucia.alvarado@unifranz.edu.bo (asistente)"
+    },
+    {
+      "id": "1775056811445",
+      "timestamp": "2026-04-01T15:20:11.445Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "gerente@unifranz.edu: rol=gerente, equipos=, equipo=null, esDirectiva=true"
+    },
+    {
+      "id": "1775056811452",
+      "timestamp": "2026-04-01T15:20:11.452Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "lucia.alvarado@unifranz.edu.bo → [Actividades Transversales]"
+    },
+    {
+      "id": "1775057012135",
+      "timestamp": "2026-04-01T15:23:32.135Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775057894471",
+      "timestamp": "2026-04-01T15:38:14.471Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775057988919",
+      "timestamp": "2026-04-01T15:39:48.919Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Equipos",
+      "detalles": "admin@unifranz.edu → [comunicacion]"
+    },
+    {
+      "id": "1775057990478",
+      "timestamp": "2026-04-01T15:39:50.478Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Equipos",
+      "detalles": "admin@unifranz.edu → [ninguno]"
+    },
+    {
+      "id": "1775058368934",
+      "timestamp": "2026-04-01T15:46:08.934Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775058383258",
+      "timestamp": "2026-04-01T15:46:23.258Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Eliminar Usuario",
+      "detalles": "lucia.alvarado@unifranz.edu.bo"
+    },
+    {
+      "id": "1775058408654",
+      "timestamp": "2026-04-01T15:46:48.654Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "gerente@unifranz.edu → email=lucia.alvarado@unifranz.edu.bo, rol=gerente, nombre=Lucia Elena Arnez Alvarado, equipos=, equipo=null, esDirectiva=true, secciones=null, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775058408657",
+      "timestamp": "2026-04-01T15:46:48.657Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "lucia.alvarado@unifranz.edu.bo → [Actividades Transversales]"
+    },
+    {
+      "id": "1775058458037",
+      "timestamp": "2026-04-01T15:47:38.037Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "pi@unifranz.edu → email=proyectoinvest.ronald.tapia@unifranz.edu.bo, rol=pi, nombre=Ronald Fernando Tapia Pijuan, equipos=, equipo=null, esDirectiva=true, secciones=null, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775058596836",
+      "timestamp": "2026-04-01T15:49:56.836Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo: rol=pi, nombre=Ronald Fernando Tapia Pijuan, equipos=, equipo=null, esDirectiva=true, secciones=null, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775058596839",
+      "timestamp": "2026-04-01T15:49:56.839Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo → [Actividades Transversales]"
+    },
+    {
+      "id": "1775058635768",
+      "timestamp": "2026-04-01T15:50:35.768Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "financiero@unifranz.edu → email=proyectoinvest.david.burgoa@unifranz.edu.bo, rol=responsable_financiero, nombre=David Burgoa Barrenechea, equipos=Financiero,Administrativo, equipo=Financiero, esDirectiva=true, secciones=null, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775058635773",
+      "timestamp": "2026-04-01T15:50:35.773Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.david.burgoa@unifranz.edu.bo → [Actividades Transversales]"
+    },
+    {
+      "id": "1775058690887",
+      "timestamp": "2026-04-01T15:51:30.887Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "coordinadora@unifranz.edu → email=estela.tango@unifranz.edu.bo, rol=coordinadora, nombre=Estela María del Carmen Tango Camargo, equipos=, equipo=null, esDirectiva=true, secciones=null, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775058690890",
+      "timestamp": "2026-04-01T15:51:30.890Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "estela.tango@unifranz.edu.bo → [Trial 1: DIALOG+, Trial 2: Multifamiliar, Actividades Transversales]"
+    },
+    {
+      "id": "1775059075785",
+      "timestamp": "2026-04-01T15:57:55.785Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "becaria1@unifranz.edu → email=proyectoinvest.dailyncarla.llanos@unifranz.edu.bo, rol=becaria, nombre=Dailyn Carla Llanos Agno, equipos=Comité de Ética, equipo=Comité de Ética, esDirectiva=false, secciones=tareas,reuniones,registrar-tarea,registrar-reunion,presupuesto, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775059075788",
+      "timestamp": "2026-04-01T15:57:55.788Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.dailyncarla.llanos@unifranz.edu.bo → [ninguno]"
+    },
+    {
+      "id": "1775059109541",
+      "timestamp": "2026-04-01T15:58:29.541Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775059119886",
+      "timestamp": "2026-04-01T15:58:39.886Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como pi"
+    },
+    {
+      "id": "1775059241866",
+      "timestamp": "2026-04-01T16:00:41.866Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775059408657",
+      "timestamp": "2026-04-01T16:03:28.657Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775059444191",
+      "timestamp": "2026-04-01T16:04:04.191Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo: rol=pi, nombre=Ronald Fernando Tapia Pijuan, equipos=, equipo=null, esDirectiva=true, secciones=null, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775059444194",
+      "timestamp": "2026-04-01T16:04:04.194Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo → [ninguno]"
+    },
+    {
+      "id": "1775059448096",
+      "timestamp": "2026-04-01T16:04:08.096Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775059462123",
+      "timestamp": "2026-04-01T16:04:22.123Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como pi"
+    },
+    {
+      "id": "1775059586122",
+      "timestamp": "2026-04-01T16:06:26.122Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775059603499",
+      "timestamp": "2026-04-01T16:06:43.499Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"casdas\" → proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo, proyectoinvest.ronald.tapia@unifranz.edu.bo"
+    },
+    {
+      "id": "1775059691294",
+      "timestamp": "2026-04-01T16:08:11.294Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775059720244",
+      "timestamp": "2026-04-01T16:08:40.244Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo: rol=pi, nombre=Ronald Fernando Tapia Pijuan, equipos=, equipo=null, esDirectiva=true, secciones=tareas,registrar-tarea, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775059720249",
+      "timestamp": "2026-04-01T16:08:40.249Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo → [ninguno]"
+    },
+    {
+      "id": "1775059755985",
+      "timestamp": "2026-04-01T16:09:15.985Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo: rol=pi, nombre=Ronald Fernando Tapia Pijuan, equipos=, equipo=null, esDirectiva=true, secciones=tareas,registrar-tarea,reuniones,registrar-reunion, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775059755990",
+      "timestamp": "2026-04-01T16:09:15.990Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.ronald.tapia@unifranz.edu.bo → [ninguno]"
+    },
+    {
+      "id": "1775059771986",
+      "timestamp": "2026-04-01T16:09:31.986Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775059779115",
+      "timestamp": "2026-04-01T16:09:39.115Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como pi"
+    },
+    {
+      "id": "1775059811001",
+      "timestamp": "2026-04-01T16:10:11.001Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como pi"
+    },
+    {
+      "id": "1775060111927",
+      "timestamp": "2026-04-01T16:15:11.927Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"casdas\" → Completada"
+    },
+    {
+      "id": "1775060167542",
+      "timestamp": "2026-04-01T16:16:07.542Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775060197579",
+      "timestamp": "2026-04-01T16:16:37.579Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"dasd\" → proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo, proyectoinvest.ronald.tapia@unifranz.edu.bo"
+    },
+    {
+      "id": "1775060224241",
+      "timestamp": "2026-04-01T16:17:04.241Z",
+      "usuario": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "accion": "Actualizar Tarea",
+      "detalles": "\"dasd\" → Completada"
+    },
+    {
+      "id": "1775060278652",
+      "timestamp": "2026-04-01T16:17:58.652Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Crear Tarea",
+      "detalles": "\"Comer silpancho\" → proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo, proyectoinvest.ronald.tapia@unifranz.edu.bo"
+    },
+    {
+      "id": "1775060398104",
+      "timestamp": "2026-04-01T16:19:58.104Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775060498288",
+      "timestamp": "2026-04-01T16:21:38.288Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Crear Usuario",
+      "detalles": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo (asistente)"
+    },
+    {
+      "id": "1775060498293",
+      "timestamp": "2026-04-01T16:21:38.293Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo: equipos=Financiero, equipo=Financiero, esDirectiva=false"
+    },
+    {
+      "id": "1775060498301",
+      "timestamp": "2026-04-01T16:21:38.301Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo → [Trial 2: Multifamiliar]"
+    },
+    {
+      "id": "1775060538390",
+      "timestamp": "2026-04-01T16:22:18.390Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775060894485",
+      "timestamp": "2026-04-01T16:28:14.485Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775060900502",
+      "timestamp": "2026-04-01T16:28:20.502Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775061380563",
+      "timestamp": "2026-04-01T16:36:20.564Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775061403274",
+      "timestamp": "2026-04-01T16:36:43.274Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Crear Tablet",
+      "detalles": "ID: TAB-001 — LENOVO"
+    },
+    {
+      "id": "1775061415412",
+      "timestamp": "2026-04-01T16:36:55.412Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Crear Documento",
+      "detalles": "Carpeta: ASDAS — DASDAS"
+    },
+    {
+      "id": "1775061430400",
+      "timestamp": "2026-04-01T16:37:10.400Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775061456891",
+      "timestamp": "2026-04-01T16:37:36.891Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Solicitud Préstamo",
+      "detalles": "tablet: TAB-001 — LENOVO"
+    },
+    {
+      "id": "1775061483862",
+      "timestamp": "2026-04-01T16:38:03.862Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Entrega Recurso",
+      "detalles": "tablet: TAB-001 — LENOVO → Luis Felipe Osinaga Robles"
+    },
+    {
+      "id": "1775061504848",
+      "timestamp": "2026-04-01T16:38:24.848Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Devolución Recurso",
+      "detalles": "tablet: TAB-001 — LENOVO ← Luis Felipe Osinaga Robles"
+    },
+    {
+      "id": "1775061598067",
+      "timestamp": "2026-04-01T16:39:58.067Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Registrar Reunión Personal",
+      "detalles": "\"fsdf\""
+    },
+    {
+      "id": "1775061717487",
+      "timestamp": "2026-04-01T16:41:57.487Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Crear Presupuesto",
+      "detalles": "Proyecto \"Trial 2: Multifamiliar\" mes 2026-04 — Bs 100"
+    },
+    {
+      "id": "1775061824733",
+      "timestamp": "2026-04-01T16:43:44.733Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775062372031",
+      "timestamp": "2026-04-01T16:52:52.031Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775062423811",
+      "timestamp": "2026-04-01T16:53:43.811Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775062451788",
+      "timestamp": "2026-04-01T16:54:11.788Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.jorgeignacio.antelo@unifranz.edu.bo: rol=asistente, nombre=Jorge Ignacio Antelo Gutiérrez, equipos=, equipo=null, esDirectiva=false, secciones=recursos, esEncargadoRecursos=true"
+    },
+    {
+      "id": "1775062451792",
+      "timestamp": "2026-04-01T16:54:11.792Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.jorgeignacio.antelo@unifranz.edu.bo → [Trial 1: DIALOG+]"
+    },
+    {
+      "id": "1775062463227",
+      "timestamp": "2026-04-01T16:54:23.227Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775062469522",
+      "timestamp": "2026-04-01T16:54:29.522Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775062685458",
+      "timestamp": "2026-04-01T16:58:05.458Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775062807928",
+      "timestamp": "2026-04-01T17:00:07.928Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775062821652",
+      "timestamp": "2026-04-01T17:00:21.652Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Solicitud Préstamo",
+      "detalles": "tablet: TAB-001 — LENOVO"
+    },
+    {
+      "id": "1775062844203",
+      "timestamp": "2026-04-01T17:00:44.203Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Entrega Recurso",
+      "detalles": "tablet: TAB-001 — LENOVO → Luis Felipe Osinaga Robles"
+    },
+    {
+      "id": "1775062851182",
+      "timestamp": "2026-04-01T17:00:51.182Z",
+      "usuario": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "accion": "Devolución Recurso",
+      "detalles": "tablet: TAB-001 — LENOVO ← Luis Felipe Osinaga Robles"
+    },
+    {
+      "id": "1775063524495",
+      "timestamp": "2026-04-01T17:12:04.496Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775063551238",
+      "timestamp": "2026-04-01T17:12:31.238Z",
+      "usuario": "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775063838834",
+      "timestamp": "2026-04-01T17:17:18.834Z",
+      "usuario": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    },
+    {
+      "id": "1775066413169",
+      "timestamp": "2026-04-01T18:00:13.170Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775066550448",
+      "timestamp": "2026-04-01T18:02:30.448Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo: rol=admin, nombre=Joel Ángel Gonzales Flores, equipos=, equipo=null, esDirectiva=false, secciones=tareas,reuniones,registrar-tarea,registrar-reunion, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775066550468",
+      "timestamp": "2026-04-01T18:02:30.468Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo → [Trial 1: DIALOG+]"
+    },
+    {
+      "id": "1775066562104",
+      "timestamp": "2026-04-01T18:02:42.104Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775066587634",
+      "timestamp": "2026-04-01T18:03:07.634Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como admin"
+    },
+    {
+      "id": "1775066738523",
+      "timestamp": "2026-04-01T18:05:38.523Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo: rol=asistente, nombre=Joel Angel Gonzales Flores, equipos=, equipo=null, esDirectiva=false, secciones=tareas,reuniones,registrar-tarea,registrar-reunion, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775066738530",
+      "timestamp": "2026-04-01T18:05:38.530Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo → [Trial 1: DIALOG+]"
+    },
+    {
+      "id": "1775067174656",
+      "timestamp": "2026-04-01T18:12:54.656Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.noeliaaida.castro@unifranz.edu.bo: rol=asistente, nombre=Noelia Aida Castro Guzmán, equipos=, equipo=null, esDirectiva=false, secciones=null, esEncargadoRecursos=false"
+    },
+    {
+      "id": "1775067174661",
+      "timestamp": "2026-04-01T18:12:54.661Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.noeliaaida.castro@unifranz.edu.bo → [Trial 2: Multifamiliar]"
+    },
+    {
+      "id": "1775067231967",
+      "timestamp": "2026-04-01T18:13:51.967Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Crear Usuario",
+      "detalles": "proyectoinvest.marialaura.palmerola@unifranz.edu.bo (asistente)"
+    },
+    {
+      "id": "1775067231972",
+      "timestamp": "2026-04-01T18:13:51.972Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.marialaura.palmerola@unifranz.edu.bo: equipos=, equipo=null, esDirectiva=false"
+    },
+    {
+      "id": "1775067231978",
+      "timestamp": "2026-04-01T18:13:51.978Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.marialaura.palmerola@unifranz.edu.bo → [Trial 2: Multifamiliar]"
+    },
+    {
+      "id": "1775067315923",
+      "timestamp": "2026-04-01T18:15:15.923Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Crear Usuario",
+      "detalles": "maite.sandoval@unifranz.edu.bo (coordinadora)"
+    },
+    {
+      "id": "1775067315930",
+      "timestamp": "2026-04-01T18:15:15.930Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Editar Usuario",
+      "detalles": "maite.sandoval@unifranz.edu.bo: equipos=Comunicación, equipo=Comunicación, esDirectiva=false"
+    },
+    {
+      "id": "1775067315936",
+      "timestamp": "2026-04-01T18:15:15.936Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Asignar Proyectos",
+      "detalles": "maite.sandoval@unifranz.edu.bo → [Actividades Transversales]"
+    },
+    {
+      "id": "1775067353219",
+      "timestamp": "2026-04-01T18:15:53.219Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Crear Usuario",
+      "detalles": "proyectoinvest.mariaceleste.limon.mo@unifranz.edu.bo (asistente)"
+    },
+    {
+      "id": "1775067353224",
+      "timestamp": "2026-04-01T18:15:53.224Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Editar Usuario",
+      "detalles": "proyectoinvest.mariaceleste.limon.mo@unifranz.edu.bo: equipos=Comunicación, equipo=Comunicación, esDirectiva=false"
+    },
+    {
+      "id": "1775067353230",
+      "timestamp": "2026-04-01T18:15:53.230Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Asignar Proyectos",
+      "detalles": "proyectoinvest.mariaceleste.limon.mo@unifranz.edu.bo → [ninguno]"
+    },
+    {
+      "id": "1775067644059",
+      "timestamp": "2026-04-01T18:20:44.059Z",
+      "usuario": "admin@unifranz.edu",
+      "accion": "Logout",
+      "detalles": "Sesión cerrada"
+    },
+    {
+      "id": "1775067700114",
+      "timestamp": "2026-04-01T18:21:40.114Z",
+      "usuario": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "accion": "Login",
+      "detalles": "Sesión iniciada como asistente"
+    }
+  ],
+  "proyectos": [
+    {
+      "nombre": "Trial 1: DIALOG+",
+      "descripcion": "RCT DIALOG - Estudio sobre intervenciones de diálogo",
+      "miembros": [
+        "proyectoinvest.mauricioalejandro.baspineiro@unifranz.edu.bo",
+        "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+        "proyectoinvest.janethesther.calatayud@unifranz.edu.bo",
+        "proyectoinvest.jorgeignacio.antelo@unifranz.edu.bo",
+        "estela.tango@unifranz.edu.bo",
+        "proyectoinvest.joelangel.gonzales@unifranz.edu.bo"
+      ],
+      "creadoPor": "admin@unifranz.edu",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "nombre": "Trial 2: Multifamiliar",
+      "descripcion": "IT MULTI - Intervención en contextos multifamiliares",
+      "miembros": [
+        "proyectoinvest.noeliaaida.castro@unifranz.edu.bo",
+        "estela.tango@unifranz.edu.bo",
+        "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+        "proyectoinvest.marialaura.palmerola@unifranz.edu.bo"
+      ],
+      "creadoPor": "admin@unifranz.edu",
+      "createdAt": "2026-01-05"
+    },
+    {
+      "nombre": "Actividades Transversales",
+      "descripcion": "Actividades transversales de investigación y coordinación",
+      "miembros": [
+        "estela.tango@unifranz.edu.bo",
+        "proyectoinvest.david.burgoa@unifranz.edu.bo",
+        "lucia.alvarado@unifranz.edu.bo",
+        "scze.micaelaandrea.canqui.mi@unifranz.edu.bo",
+        "maite.sandoval@unifranz.edu.bo"
+      ],
+      "creadoPor": "admin@unifranz.edu",
+      "createdAt": "2026-01-10"
+    }
+  ],
+  "anuncios": [
+    {
+      "id": "1775011888637",
+      "titulo": "CUMPLEAÑOS",
+      "contenido": "ASDA",
+      "importante": true,
+      "autor": "Joel Ángel Gonzales Flores",
+      "autorEmail": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "fecha": "2026-04-01",
+      "creadoEn": "2026-04-01T02:51:28.637Z",
+      "imagen": {
+        "archivo": "1775011888644-dg144zce5fq.png",
+        "url": "/uploads/anuncios/1775011888644-dg144zce5fq.png"
+      }
+    }
+  ],
+  "googleTokens": {},
+  "solicitudesActualizacion": [],
+  "presupuestos": [
+    {
+      "id": "1775061717486",
+      "proyecto": "Trial 2: Multifamiliar",
+      "mes": "2026-04",
+      "descripcion": "wqeq",
+      "estado": "borrador",
+      "items": [
+        {
+          "id": "1775061717486-0",
+          "rubro": "Material e Insumos",
+          "descripcion": "ewqeqw",
+          "monto": 100
+        }
+      ],
+      "totalSolicitado": 100,
+      "respaldos": [],
+      "comentarios": [],
+      "creadoPor": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "creadoPorNombre": "Hugh Kevin Mc Cormack Rojas",
+      "creadoEn": "2026-04-01T16:41:57.486Z",
+      "revisadoPor": null,
+      "revisadoEn": null,
+      "aprobadoPor": null,
+      "aprobadoEn": null
+    }
+  ],
+  "gastos": [],
+  "notificaciones": [
+    {
+      "id": "1775061456889-m86d0ysth9",
+      "para": "admin@unifranz.edu",
+      "tipo": "recurso",
+      "titulo": "Nueva solicitud de préstamo",
+      "mensaje": "Luis Felipe Osinaga Robles solicita: TAB-001 — LENOVO (tablet)",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:37:36.888Z",
+      "referencia": {
+        "prestamoId": "1775061456887"
+      }
+    },
+    {
+      "id": "1775061456890-n8dff12tpqn",
+      "para": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "tipo": "recurso",
+      "titulo": "Nueva solicitud de préstamo",
+      "mensaje": "Luis Felipe Osinaga Robles solicita: TAB-001 — LENOVO (tablet)",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:37:36.888Z",
+      "referencia": {
+        "prestamoId": "1775061456887"
+      }
+    },
+    {
+      "id": "1775061456891-24j5pk5xjcr",
+      "para": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "tipo": "recurso",
+      "titulo": "Nueva solicitud de préstamo",
+      "mensaje": "Luis Felipe Osinaga Robles solicita: TAB-001 — LENOVO (tablet)",
+      "leida": true,
+      "creadaEn": "2026-04-01T16:37:36.888Z",
+      "referencia": {
+        "prestamoId": "1775061456887"
+      }
+    },
+    {
+      "id": "1775061483862-wrax2n1shxp",
+      "para": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "tipo": "recurso",
+      "titulo": "Recurso entregado — eres responsable",
+      "mensaje": "Tu solicitud de \"TAB-001 — LENOVO\" fue aprobada y entregada. Eres responsable hasta la devolución.",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:38:03.862Z",
+      "referencia": {
+        "prestamoId": "1775061456887"
+      }
+    },
+    {
+      "id": "1775061717566-y03ai8gd08",
+      "para": "proyectoinvest.noeliaaida.castro@unifranz.edu.bo",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775061717567-u7jsgqce38j",
+      "para": "estela.tango@unifranz.edu.bo",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775061717568-lhgaxellob",
+      "para": "admin@unifranz.edu",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775061717568-er73p2tiy6f",
+      "para": "lucia.alvarado@unifranz.edu.bo",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775061717569-8xv28kvtgzt",
+      "para": "proyectoinvest.ronald.tapia@unifranz.edu.bo",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775061717570-eczebspr3h9",
+      "para": "proyectoinvest.david.burgoa@unifranz.edu.bo",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775061717570-wsabsoqj349",
+      "para": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": false,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775061717571-gakezz8ft",
+      "para": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "tipo": "presupuesto_creado",
+      "titulo": "Nuevo presupuesto: Trial 2: Multifamiliar",
+      "mensaje": "Hugh Kevin Mc Cormack Rojas creó el presupuesto de 2026-04 para \"Trial 2: Multifamiliar\" — Bs 100",
+      "leida": true,
+      "creadaEn": "2026-04-01T16:41:57.566Z",
+      "referencia": {
+        "tipo": "presupuesto",
+        "id": "1775061717486"
+      }
+    },
+    {
+      "id": "1775062821650-dj98p7o5o8o",
+      "para": "admin@unifranz.edu",
+      "tipo": "recurso",
+      "titulo": "Nueva solicitud de préstamo",
+      "mensaje": "Luis Felipe Osinaga Robles solicita: TAB-001 — LENOVO (tablet)",
+      "leida": false,
+      "creadaEn": "2026-04-01T17:00:21.650Z",
+      "referencia": {
+        "prestamoId": "1775062821649"
+      }
+    },
+    {
+      "id": "1775062821650-2o4uno7wqn5",
+      "para": "proyectoinvest.jorgeignacio.antelo@unifranz.edu.bo",
+      "tipo": "recurso",
+      "titulo": "Nueva solicitud de préstamo",
+      "mensaje": "Luis Felipe Osinaga Robles solicita: TAB-001 — LENOVO (tablet)",
+      "leida": false,
+      "creadaEn": "2026-04-01T17:00:21.650Z",
+      "referencia": {
+        "prestamoId": "1775062821649"
+      }
+    },
+    {
+      "id": "1775062821651-t2ia99t2z0f",
+      "para": "proyectoinvest.joelangel.gonzales@unifranz.edu.bo",
+      "tipo": "recurso",
+      "titulo": "Nueva solicitud de préstamo",
+      "mensaje": "Luis Felipe Osinaga Robles solicita: TAB-001 — LENOVO (tablet)",
+      "leida": false,
+      "creadaEn": "2026-04-01T17:00:21.650Z",
+      "referencia": {
+        "prestamoId": "1775062821649"
+      }
+    },
+    {
+      "id": "1775062821651-jsg7gzmsaf",
+      "para": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "tipo": "recurso",
+      "titulo": "Nueva solicitud de préstamo",
+      "mensaje": "Luis Felipe Osinaga Robles solicita: TAB-001 — LENOVO (tablet)",
+      "leida": true,
+      "creadaEn": "2026-04-01T17:00:21.650Z",
+      "referencia": {
+        "prestamoId": "1775062821649"
+      }
+    },
+    {
+      "id": "1775062844203-ra841oj44v",
+      "para": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "tipo": "recurso",
+      "titulo": "Recurso entregado — eres responsable",
+      "mensaje": "Tu solicitud de \"TAB-001 — LENOVO\" fue aprobada y entregada. Eres responsable hasta la devolución.",
+      "leida": false,
+      "creadaEn": "2026-04-01T17:00:44.203Z",
+      "referencia": {
+        "prestamoId": "1775062821649"
+      }
+    }
+  ],
+  "scrumSesiones": [],
+  "tablets": [
+    {
+      "id": "TAB-001",
+      "nombre": "LENOVO",
+      "descripcion": "DASDA",
+      "activo": true,
+      "creadoEn": "2026-04-01T16:36:43.274Z"
+    }
+  ],
+  "documentos": [
+    {
+      "id": "1775061415411",
+      "carpetaId": "ASDAS",
+      "nombre": "DASDAS",
+      "descripcion": "DASDAS",
+      "activo": true,
+      "creadoEn": "2026-04-01T16:36:55.411Z"
+    }
+  ],
+  "prestamos": [
+    {
+      "id": "1775061456887",
+      "tipo": "tablet",
+      "recursoId": "TAB-001",
+      "recursoNombre": "TAB-001 — LENOVO",
+      "solicitante": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "solicitanteNombre": "Luis Felipe Osinaga Robles",
+      "motivo": "vista bajioo",
+      "estado": "devuelto",
+      "fechaSolicitud": "2026-04-01T16:37:36.887Z",
+      "encargadoEntrega": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "encargadoEntregaNombre": "Hugh Kevin Mc Cormack Rojas",
+      "fechaEntrega": "2026-04-01T16:38:03.861Z",
+      "detallesEntrega": "dknsalkdnsalkn",
+      "encargadoDevolucion": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "encargadoDevolucionNombre": "Hugh Kevin Mc Cormack Rojas",
+      "fechaDevolucion": "2026-04-01T16:38:24.847Z",
+      "detallesDevolucion": "sdasdasdas"
+    },
+    {
+      "id": "1775062821649",
+      "tipo": "tablet",
+      "recursoId": "TAB-001",
+      "recursoNombre": "TAB-001 — LENOVO",
+      "solicitante": "proyectoinvest.luisfelipe.osinaga@unifranz.edu.bo",
+      "solicitanteNombre": "Luis Felipe Osinaga Robles",
+      "motivo": "casasd",
+      "estado": "devuelto",
+      "fechaSolicitud": "2026-04-01T17:00:21.649Z",
+      "encargadoEntrega": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "encargadoEntregaNombre": "Hugh Kevin Mc Cormack Rojas",
+      "fechaEntrega": "2026-04-01T17:00:44.201Z",
+      "detallesEntrega": "",
+      "encargadoDevolucion": "proyectoinvest.hughkevin.mccormack@unifranz.edu.bo",
+      "encargadoDevolucionNombre": "Hugh Kevin Mc Cormack Rojas",
+      "fechaDevolucion": "2026-04-01T17:00:51.180Z",
+      "detallesDevolucion": ""
+    }
+  ]
+}
