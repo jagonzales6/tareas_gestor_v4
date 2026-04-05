@@ -1,0 +1,91 @@
+# ==============================================================================
+# docker-compose.yml — Gestor de Tareas NIHR v4
+#
+# Servicios:
+#   nihr-db    — PostgreSQL 15 (base de datos)
+#   nihr-app   — Node.js 18   (backend + frontend estático)
+#   nihr-nginx — nginx        (proxy reverso, puerto 80 público)
+#
+# Uso:
+#   1. Copia backend/.env.example como backend/.env y rellena los valores
+#   2. docker compose up -d --build
+#   3. docker compose logs -f nihr-app
+# ==============================================================================
+
+services:
+
+  # ----------------------------------------------------------------------------
+  # Base de datos PostgreSQL
+  # ----------------------------------------------------------------------------
+  nihr-db:
+    image: postgres:15-alpine
+    container_name: nihr-db
+    restart: unless-stopped
+    env_file: ./backend/.env        # lee POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD
+    volumes:
+      - nihr_db_data:/var/lib/postgresql/data
+      # Inicializa el esquema en el primer arranque (cuando el volumen está vacío)
+      - ./backend/src/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    networks:
+      - nihr_net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # ----------------------------------------------------------------------------
+  # Aplicación Node.js
+  # ----------------------------------------------------------------------------
+  nihr-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nihr-app
+    restart: unless-stopped
+    env_file: ./backend/.env        # carga todas las variables de entorno
+    depends_on:
+      nihr-db:
+        condition: service_healthy  # espera a que PostgreSQL esté listo
+    volumes:
+      - nihr_uploads:/app/data/uploads   # uploads persistentes entre reinicios
+    networks:
+      - nihr_net
+    # El puerto 3000 NO se expone al host — solo accesible desde nginx (red interna)
+
+  # ----------------------------------------------------------------------------
+  # nginx — proxy reverso
+  # ----------------------------------------------------------------------------
+  nihr-nginx:
+    image: nginx:alpine
+    container_name: nihr-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      # Para HTTPS, descomentar la siguiente línea después de configurar Certbot:
+      # - "443:443"
+    volumes:
+      - ./nginx-nihr.conf:/etc/nginx/conf.d/default.conf:ro
+      # Para HTTPS con Certbot, montar los certificados:
+      # - /etc/letsencrypt:/etc/letsencrypt:ro
+    depends_on:
+      - nihr-app
+    networks:
+      - nihr_net
+
+# ------------------------------------------------------------------------------
+# Volúmenes persistentes
+# ------------------------------------------------------------------------------
+volumes:
+  nihr_db_data:
+    driver: local
+  nihr_uploads:
+    driver: local
+
+# ------------------------------------------------------------------------------
+# Red interna (nihr-app y nihr-db no son accesibles desde el exterior)
+# ------------------------------------------------------------------------------
+networks:
+  nihr_net:
+    driver: bridge

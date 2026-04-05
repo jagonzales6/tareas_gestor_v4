@@ -1,0 +1,34 @@
+# Dependencias (se instalan dentro del contenedor)
+node_modules
+backend/node_modules
+
+# Variables de entorno con credenciales
+backend/.env
+.env
+
+# Control de versiones
+.git
+.gitignore
+
+# Uploads (se usan volúmenes Docker para persistencia)
+data/uploads
+
+# Logs
+logs
+
+# Scripts y archivos solo para Windows
+*.bat
+iniciar.bat
+
+# Archivos de documentación (no necesarios en el contenedor)
+*.md
+CLAUDE.md
+README.md
+SETUP.md
+ARCHIVOS.md
+ESTRUCTURA_ROLES.md
+SERVIDOR_RED_LOCAL.md
+INICIO_RAPIDO.txt
+
+# Archivos de configuración de desarrollo local
+ecosystem.config.js

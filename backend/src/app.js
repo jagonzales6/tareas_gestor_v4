@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: require('path').join(__dirname, '../.env') });
 const express    = require('express');
 const cors       = require('cors');
 const session    = require('express-session');
@@ -172,10 +172,19 @@ const app = express();
 // MIDDLEWARE
 // ============================================================================
 
+const ALLOWED_ORIGINS_ENV = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(',').map(o => o.trim()).filter(Boolean)
+  : [];
+
 app.use(cors({
-  origin: function(origin, callback) {
+  origin: function (origin, callback) {
     if (!origin) return callback(null, true);
-    const isLocal = /^http:\/\/(localhost|127\.0\.0\.1|192\.168\.\d+\.\d+|10\.\d+\.\d+\.\d+|172\.(1[6-9]|2\d|3[01])\.\d+\.\d+)(:\d+)?$/.test(origin);
+    if (ALLOWED_ORIGINS_ENV.length > 0) {
+      if (ALLOWED_ORIGINS_ENV.includes(origin)) return callback(null, true);
+      return callback(new Error('CORS bloqueado: origen no permitido'));
+    }
+    // Fallback desarrollo: solo IPs locales
+    const isLocal = /^https?:\/\/(localhost|127\.0\.0\.1|192\.168\.\d+\.\d+|10\.\d+\.\d+\.\d+|172\.(1[6-9]|2\d|3[01])\.\d+\.\d+)(:\d+)?$/.test(origin);
     callback(isLocal ? null : new Error('CORS bloqueado'), isLocal);
   },
   credentials: true
@@ -184,6 +193,11 @@ app.use(cors({
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../../frontend')));
 app.use('/uploads', express.static(path.join(__dirname, '../../data/uploads')));
+
+// Trust nginx como primer proxy (necesario para req.secure y cookies seguras detrás de HTTPS)
+if (process.env.NODE_ENV === 'production') {
+  app.set('trust proxy', 1);
+}
 
 app.use(session({
   store: new PgSession({
@@ -194,7 +208,12 @@ app.use(session({
   secret: process.env.SESSION_SECRET || 'cambiar-este-secret',
   resave: false,
   saveUninitialized: false,
-  cookie: { secure: false, sameSite: 'lax', httpOnly: true, maxAge: 8 * 60 * 60 * 1000 }
+  cookie: {
+    secure: process.env.NODE_ENV === 'production' && process.env.HTTPS_ENABLED === 'true',
+    sameSite: process.env.NODE_ENV === 'production' && process.env.HTTPS_ENABLED === 'true' ? 'strict' : 'lax',
+    httpOnly: true,
+    maxAge: 8 * 60 * 60 * 1000
+  }
 }));
 
 // ============================================================================
