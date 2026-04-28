@@ -2,7 +2,7 @@ require('dotenv').config({ path: require('path').join(__dirname, '../.env') });
 const express    = require('express');
 const cors       = require('cors');
 const session    = require('express-session');
-const PgSession  = require('connect-pg-simple')(session);
+const SQLiteStore = require('connect-sqlite3')(session);
 const path       = require('path');
 const fs         = require('fs');
 const multer     = require('multer');
@@ -199,12 +199,10 @@ if (process.env.NODE_ENV === 'production') {
   app.set('trust proxy', 1);
 }
 
+const SESSION_DB_DIR = require('path').dirname(require('path').resolve(process.env.DATABASE_URL || './data/nihr.db'));
+
 app.use(session({
-  store: new PgSession({
-    conString: process.env.DATABASE_URL,
-    tableName: 'session',
-    createTableIfMissing: true,
-  }),
+  store: new SQLiteStore({ db: 'sessions.db', dir: SESSION_DB_DIR }),
   secret: process.env.SESSION_SECRET || 'cambiar-este-secret',
   resave: false,
   saveUninitialized: false,
